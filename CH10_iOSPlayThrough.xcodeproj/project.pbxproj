@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7202CE45156F363000C85D9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7202CE44156F363000C85D9B /* UIKit.framework */; };
+		7202CE47156F363000C85D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7202CE46156F363000C85D9B /* Foundation.framework */; };
+		7202CE49156F363000C85D9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7202CE48156F363000C85D9B /* CoreGraphics.framework */; };
+		7202CE4F156F363000C85D9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7202CE4D156F363000C85D9B /* InfoPlist.strings */; };
+		7202CE51156F363000C85D9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7202CE50156F363000C85D9B /* main.m */; };
+		7202CE55156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7202CE54156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7202CE40156F363000C85D9B /* CH10_iOSPlayThrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CH10_iOSPlayThrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7202CE44156F363000C85D9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7202CE46156F363000C85D9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7202CE48156F363000C85D9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7202CE4C156F363000C85D9B /* CH10_iOSPlayThrough-Info.plist */ = {isa = PBXFileReference; path = "CH10_iOSPlayThrough-Info.plist"; sourceTree = "<group>"; };
+		7202CE4E156F363000C85D9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7202CE50156F363000C85D9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7202CE52156F363000C85D9B /* CH10_iOSPlayThrough-Prefix.pch */ = {isa = PBXFileReference; path = "CH10_iOSPlayThrough-Prefix.pch"; sourceTree = "<group>"; };
+		7202CE53156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.h */ = {isa = PBXFileReference; path = CH10_iOSPlayThroughAppDelegate.h; sourceTree = "<group>"; };
+		7202CE54156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CH10_iOSPlayThroughAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7202CE3D156F363000C85D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7202CE45156F363000C85D9B /* UIKit.framework in Frameworks */,
+				7202CE47156F363000C85D9B /* Foundation.framework in Frameworks */,
+				7202CE49156F363000C85D9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7202CE35156F363000C85D9B = {
+			isa = PBXGroup;
+			children = (
+				7202CE4A156F363000C85D9B /* CH10_iOSPlayThrough */,
+				7202CE43156F363000C85D9B /* Frameworks */,
+				7202CE41156F363000C85D9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7202CE41156F363000C85D9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7202CE40156F363000C85D9B /* CH10_iOSPlayThrough.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7202CE43156F363000C85D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7202CE44156F363000C85D9B /* UIKit.framework */,
+				7202CE46156F363000C85D9B /* Foundation.framework */,
+				7202CE48156F363000C85D9B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7202CE4A156F363000C85D9B /* CH10_iOSPlayThrough */ = {
+			isa = PBXGroup;
+			children = (
+				7202CE53156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.h */,
+				7202CE54156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m */,
+				7202CE4B156F363000C85D9B /* Supporting Files */,
+			);
+			path = CH10_iOSPlayThrough;
+			sourceTree = "<group>";
+		};
+		7202CE4B156F363000C85D9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7202CE4C156F363000C85D9B /* CH10_iOSPlayThrough-Info.plist */,
+				7202CE4D156F363000C85D9B /* InfoPlist.strings */,
+				7202CE50156F363000C85D9B /* main.m */,
+				7202CE52156F363000C85D9B /* CH10_iOSPlayThrough-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7202CE3F156F363000C85D9B /* CH10_iOSPlayThrough */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7202CE58156F363000C85D9B /* Build configuration list for PBXNativeTarget "CH10_iOSPlayThrough" */;
+			buildPhases = (
+				7202CE3C156F363000C85D9B /* Sources */,
+				7202CE3D156F363000C85D9B /* Frameworks */,
+				7202CE3E156F363000C85D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CH10_iOSPlayThrough;
+			productName = CH10_iOSPlayThrough;
+			productReference = 7202CE40156F363000C85D9B /* CH10_iOSPlayThrough.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7202CE37156F363000C85D9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CH10_iOSPlayThrough;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7202CE3A156F363000C85D9B /* Build configuration list for PBXProject "CH10_iOSPlayThrough" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7202CE35156F363000C85D9B;
+			productRefGroup = 7202CE41156F363000C85D9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7202CE3F156F363000C85D9B /* CH10_iOSPlayThrough */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7202CE3E156F363000C85D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7202CE4F156F363000C85D9B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7202CE3C156F363000C85D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7202CE51156F363000C85D9B /* main.m in Sources */,
+				7202CE55156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7202CE4D156F363000C85D9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7202CE4E156F363000C85D9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7202CE56156F363000C85D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7202CE57156F363000C85D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7202CE59156F363000C85D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CH10_iOSPlayThrough/CH10_iOSPlayThrough-Prefix.pch";
+				INFOPLIST_FILE = "CH10_iOSPlayThrough/CH10_iOSPlayThrough-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7202CE5A156F363000C85D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CH10_iOSPlayThrough/CH10_iOSPlayThrough-Prefix.pch";
+				INFOPLIST_FILE = "CH10_iOSPlayThrough/CH10_iOSPlayThrough-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7202CE3A156F363000C85D9B /* Build configuration list for PBXProject "CH10_iOSPlayThrough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7202CE56156F363000C85D9B /* Debug */,
+				7202CE57156F363000C85D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7202CE58156F363000C85D9B /* Build configuration list for PBXNativeTarget "CH10_iOSPlayThrough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7202CE59156F363000C85D9B /* Debug */,
+				7202CE5A156F363000C85D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7202CE37156F363000C85D9B /* Project object */;
+}
