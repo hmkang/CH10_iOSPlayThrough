@@ -3,3 +3,5 @@ LEARNING Core Audio
 Sample code for iOS Audio Unit
 
 CH10_iOSPlayThrough
+
+With this sample code, you can talk to mic and listen your voice via speaker immidately.
