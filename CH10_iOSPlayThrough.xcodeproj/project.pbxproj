@@ -14,6 +14,7 @@
 		7202CE51156F363000C85D9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7202CE50156F363000C85D9B /* main.m */; };
 		7202CE55156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7202CE54156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m */; };
 		7202CE5C156F366100C85D9B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7202CE5B156F366100C85D9B /* AudioToolbox.framework */; };
+		7202CE5E156F50B800C85D9B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7202CE5D156F50B800C85D9B /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7202CE53156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CH10_iOSPlayThroughAppDelegate.h; sourceTree = "<group>"; };
 		7202CE54156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CH10_iOSPlayThroughAppDelegate.m; sourceTree = "<group>"; };
 		7202CE5B156F366100C85D9B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7202CE5D156F50B800C85D9B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		7202CE4B156F363000C85D9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7202CE5D156F50B800C85D9B /* README */,
 				7202CE4C156F363000C85D9B /* CH10_iOSPlayThrough-Info.plist */,
 				7202CE4D156F363000C85D9B /* InfoPlist.strings */,
 				7202CE50156F363000C85D9B /* main.m */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7202CE4F156F363000C85D9B /* InfoPlist.strings in Resources */,
+				7202CE5E156F50B800C85D9B /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
