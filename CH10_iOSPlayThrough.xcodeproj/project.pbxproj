@@ -13,6 +13,7 @@
 		7202CE4F156F363000C85D9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7202CE4D156F363000C85D9B /* InfoPlist.strings */; };
 		7202CE51156F363000C85D9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7202CE50156F363000C85D9B /* main.m */; };
 		7202CE55156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7202CE54156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m */; };
+		7202CE5C156F366100C85D9B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7202CE5B156F366100C85D9B /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		7202CE44156F363000C85D9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7202CE46156F363000C85D9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7202CE48156F363000C85D9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7202CE4C156F363000C85D9B /* CH10_iOSPlayThrough-Info.plist */ = {isa = PBXFileReference; path = "CH10_iOSPlayThrough-Info.plist"; sourceTree = "<group>"; };
+		7202CE4C156F363000C85D9B /* CH10_iOSPlayThrough-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CH10_iOSPlayThrough-Info.plist"; sourceTree = "<group>"; };
 		7202CE4E156F363000C85D9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7202CE50156F363000C85D9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7202CE52156F363000C85D9B /* CH10_iOSPlayThrough-Prefix.pch */ = {isa = PBXFileReference; path = "CH10_iOSPlayThrough-Prefix.pch"; sourceTree = "<group>"; };
-		7202CE53156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.h */ = {isa = PBXFileReference; path = CH10_iOSPlayThroughAppDelegate.h; sourceTree = "<group>"; };
+		7202CE52156F363000C85D9B /* CH10_iOSPlayThrough-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CH10_iOSPlayThrough-Prefix.pch"; sourceTree = "<group>"; };
+		7202CE53156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CH10_iOSPlayThroughAppDelegate.h; sourceTree = "<group>"; };
 		7202CE54156F363000C85D9B /* CH10_iOSPlayThroughAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CH10_iOSPlayThroughAppDelegate.m; sourceTree = "<group>"; };
+		7202CE5B156F366100C85D9B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7202CE5C156F366100C85D9B /* AudioToolbox.framework in Frameworks */,
 				7202CE45156F363000C85D9B /* UIKit.framework in Frameworks */,
 				7202CE47156F363000C85D9B /* Foundation.framework in Frameworks */,
 				7202CE49156F363000C85D9B /* CoreGraphics.framework in Frameworks */,
@@ -45,6 +48,7 @@
 		7202CE35156F363000C85D9B = {
 			isa = PBXGroup;
 			children = (
+				7202CE5B156F366100C85D9B /* AudioToolbox.framework */,
 				7202CE4A156F363000C85D9B /* CH10_iOSPlayThrough */,
 				7202CE43156F363000C85D9B /* Frameworks */,
 				7202CE41156F363000C85D9B /* Products */,
@@ -219,6 +223,7 @@
 		7202CE59156F363000C85D9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CH10_iOSPlayThrough/CH10_iOSPlayThrough-Prefix.pch";
 				INFOPLIST_FILE = "CH10_iOSPlayThrough/CH10_iOSPlayThrough-Info.plist";
@@ -230,6 +235,7 @@
 		7202CE5A156F363000C85D9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CH10_iOSPlayThrough/CH10_iOSPlayThrough-Prefix.pch";
 				INFOPLIST_FILE = "CH10_iOSPlayThrough/CH10_iOSPlayThrough-Info.plist";

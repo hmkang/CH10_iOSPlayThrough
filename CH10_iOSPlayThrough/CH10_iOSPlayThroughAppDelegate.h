@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+
+typedef struct {
+    AudioUnit rioUnit;
+    AudioStreamBasicDescription asbd;
+    float sineFrequency;
+    float sinePhase;
+} EffectState;
 
 @interface CH10_iOSPlayThroughAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (assign) EffectState effectState;
 
 @end
